@@ -68,7 +68,7 @@ routes() ->
 
 %% @doc Test functions that can run without additional context
 basic_test_() ->
-  [].
+  [?_test(routes())].
 
 %% Tests end
 -endif.
